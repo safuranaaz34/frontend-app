@@ -2,7 +2,7 @@ import { useState, createContext } from "react";
 import Header from "./components/Header";
 import Content from "./components/Content";
 import Footer from "./components/Footer";
-import Login from "./components/login.jsx";
+import Login from "./components/login";
 import Logout from "./components/Logout";
 import Register from "./components/Register";
 import Cart from "./components/Cart";
