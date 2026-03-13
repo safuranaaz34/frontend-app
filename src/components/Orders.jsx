@@ -27,7 +27,7 @@ function Orders() {
       <h1>My Orders</h1>
       <div>
         {orders &&
-          Orders.map((order) => (
+          orders.map((order) => (
             <div key={order._id}>
               <h3>Order Id: {order.orderDate}</h3>
               <ol>
