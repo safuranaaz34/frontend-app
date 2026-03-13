@@ -18,7 +18,7 @@ function Content() {
     fetchProducts();
   }, []);
 
-  const addToCart= (product) => {
+  const addToCart = (product) => {
     const found = cart.find((item) => item._id === product._id);
     if (!found) {
       product.quantity = 1;
